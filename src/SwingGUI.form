@@ -2,7 +2,7 @@
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="SwingGUI">
   <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="BorderLayout" hgap="0" vgap="0">
     <constraints>
-      <xy x="20" y="20" width="658" height="402"/>
+      <xy x="20" y="20" width="658" height="486"/>
     </constraints>
     <properties>
       <background color="-15592942"/>
@@ -27,7 +27,10 @@
       <grid id="1c1b6" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
         <margin top="0" left="0" bottom="0" right="0"/>
         <constraints border-constraint="West"/>
-        <properties/>
+        <properties>
+          <background color="-12500671"/>
+          <foreground color="-16737563"/>
+        </properties>
         <border type="none"/>
         <children>
           <component id="fe44b" class="javax.swing.JButton" binding="wscrapeButton" default-binding="true">
@@ -68,7 +71,9 @@
             <constraints>
               <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
             </constraints>
-            <properties/>
+            <properties>
+              <background color="-12369085"/>
+            </properties>
             <border type="none"/>
             <children>
               <component id="db7e9" class="javax.swing.JButton" binding="submitButton" default-binding="true">
@@ -114,18 +119,6 @@
             </properties>
             <border type="none"/>
             <children>
-              <hspacer id="6ac8b">
-                <constraints>
-                  <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-                  <gridbag top="0" left="335" bottom="10" right="0" weightx="0.0" weighty="0.0"/>
-                </constraints>
-              </hspacer>
-              <vspacer id="7771d">
-                <constraints>
-                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
-                  <gridbag top="190" left="0" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
-                </constraints>
-              </vspacer>
               <grid id="4604a" layout-manager="FlowLayout" hgap="50" vgap="15" flow-align="1">
                 <constraints>
                   <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
@@ -137,45 +130,16 @@
                   <component id="f2691" class="javax.swing.JLabel">
                     <constraints/>
                     <properties>
+                      <background color="-12500671"/>
                       <text value="Output"/>
                     </properties>
                   </component>
                 </children>
               </grid>
-              <scrollpane id="846b2">
-                <constraints>
-                  <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
-                  <gridbag weightx="0.0" weighty="0.0"/>
-                </constraints>
-                <properties>
-                  <background color="-7829368"/>
-                </properties>
-                <border type="bevel-lowered"/>
-                <children>
-                  <component id="e1e3d" class="javax.swing.JTextPane" binding="textPane1" default-binding="true">
-                    <constraints/>
-                    <properties>
-                      <background color="-5197648"/>
-                    </properties>
-                  </component>
-                </children>
-              </scrollpane>
-              <hspacer id="a190e">
-                <constraints>
-                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-                  <gridbag weightx="0.0" weighty="0.0"/>
-                </constraints>
-              </hspacer>
-              <vspacer id="290c0">
-                <constraints>
-                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
-                  <gridbag weightx="0.0" weighty="0.0"/>
-                </constraints>
-              </vspacer>
               <grid id="142cc" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
                 <margin top="0" left="0" bottom="0" right="0"/>
                 <constraints>
-                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
                   <gridbag weightx="0.0" weighty="0.0"/>
                 </constraints>
                 <properties>
